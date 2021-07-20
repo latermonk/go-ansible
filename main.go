@@ -15,8 +15,8 @@ func main() {
 	}
 
 	ansibleAdhocOptions := &adhoc.AnsibleAdhocOptions{
-		Inventory:  "127.0.0.1,",
-		ModuleName: "ping",
+		Inventory:  "127.0.0.1:2222,",
+		ModuleName: "yum",
 	}
 
 	adhoc := &adhoc.AnsibleAdhocCmd{
